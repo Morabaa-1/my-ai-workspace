@@ -60,6 +60,19 @@ Always explain why a recommendation makes sense and identify its limitations.
 - Prototypes are single self-contained HTML files (HTML, CSS and JavaScript together), with no frameworks, no installs and sample data inside.
 
 ## 10. Preferred Output Formats
+
+### Prototype build requirements
+When I ask for a prototype, the default is:
+- A quick alpha in one self-contained file called `app.html`, with HTML, CSS and JavaScript all in that one file.
+- Made for phones first, and it still works on tablet and desktop.
+- No frameworks, no libraries, no installs and no build step. It opens by double-clicking the file.
+- Sample data written inside the file. No backend, no login and no real money.
+- Changes last for the session only. A Reset button brings back the sample data.
+- Simple, plain JavaScript, so it runs on older phones.
+- Tap targets at least 48px and no sideways scrolling at 320px wide.
+- Ready to publish on GitHub Pages as it is, with a landing page (`index.html`) that links to it.
+
+### General formats
 - PRDs and notes in Markdown, with numbered sections.
 - Prototypes and landing pages as one HTML file each, mobile-first.
 - For people who read on older phones or in a second language: big text (18px or more), short sentences and plain words.
